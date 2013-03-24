@@ -1,0 +1,241 @@
+@CHARSET "UTF-8";
+html, body {
+    height: 100%;
+    min-width: 100%;
+    position: absolute;
+}
+
+body {
+	margin: 0;
+	font-family: Verdana, "Bitstream Vera Sans", "Lucida Grande", sans-serif;
+	font-size: .8em;
+	line-height: 1.25;
+}
+
+a {
+	text-decoration: none;
+}
+
+.wrapper {
+    min-height: 100%;
+    position: relative;
+}
+.content {
+    padding: 0 44px;
+}
+.header-bar {
+    background: none repeat scroll 0 0 #F5F5F5;
+    border-bottom: 1px solid #E5E5E5;
+    height: 71px;
+    overflow: hidden;
+}
+.header .logo {
+    float: left;
+    margin: 20px 15px 0 0;
+    font-weight: bold;
+    font-size:20px;
+}
+.header .menu {
+    float: left;
+    margin: 28px 15px;
+    font-weight: bold;
+}
+
+.header .menu a{
+	text-decoration: none;
+	color:#666666;
+	display:block;
+	
+}
+
+.header .menu a:hover{
+	text-decoration: none;
+	color:#1155CC;
+}
+
+.header .signin, .header .signup {
+    float: right;
+    font-weight: bold;
+    margin: 28px 0 0;
+}
+.header .signin-button, .header .signup-button {
+    float: right;
+    margin: 22px 0 0;
+}
+.header .signin-button a {
+    font-size: 13px;
+    font-weight: normal;
+}
+.header .signup-button a {
+    margin: 0 0 0 1em;
+    position: relative;
+    top: -1px;
+}
+.main {
+    margin: 0 auto;
+    padding-bottom: 100px;
+    padding-top: 23px;
+    width: 650px;
+}
+.main h1:first-child {
+    margin: 0 0 0.92em;
+}
+.footer-bar {
+    border-top: 1px solid #EBEBEB;
+    bottom: 0;
+    height: 35px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+}
+.footer {
+    font-size: 0.85em;
+    line-height: 0;
+    padding-top: 9px;
+    white-space: nowrap;
+}
+.footer ul {
+    color: #999999;
+    float: left;
+    max-width: 80%;
+}
+.footer ul li {
+    display: inline;
+    padding: 0 1.5em 0 0;
+}
+.footer a {
+    color: #333333;
+}
+.footer form {
+    text-align: right;
+}
+.footer form .lang-chooser {
+    max-width: 20%;
+}
+.redtext {
+    color: #DD4B39;
+}
+.greytext {
+    color: #555555;
+}
+.secondary {
+    color: #666666;
+    font-size: 11px;
+}
+.source {
+    color: #009933;
+}
+.hidden {
+    display: none;
+}
+.announce-bar {
+    background: none repeat scroll 0 0 #F9EDBE;
+    border-bottom: 1px solid #EFE1AC;
+    border-top: 1px solid #EFE1AC;
+    bottom: 35px;
+    height: 33px;
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    z-index: 2;
+}
+.announce-bar .message {
+    font-size: 0.85em;
+    line-height: 33px;
+    margin: 0;
+}
+.announce-bar .message .separated {
+    margin-left: 1.5em;
+}
+.clearfix:after {
+    clear: both;
+    content: ".";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden;
+}
+* html .clearfix {
+}
+:first-child + html .clearfix {
+}
+
+.product-logo {
+    border-bottom: 1px solid #EBEBEB;
+    height: 29px;
+    line-height: 29px;
+}
+.product-logo a {
+    color: #DD4B39;
+    text-decoration: none;
+}
+.product-logo.density-normal {
+    -moz-transition: font-size 0.218s ease 0s, height 0.218s ease 0s, line-height 0.218s ease 0s, margin 0.218s ease 0s, padding 0.218s ease 0s, width 0.218s ease 0s;
+    font-size: 20px;
+    padding: 14px 0 14px 44px;
+}
+.product-logo.density-small {
+    -moz-transition: font-size 0.218s ease 0s, height 0.218s ease 0s, line-height 0.218s ease 0s, margin 0.218s ease 0s, padding 0.218s ease 0s, width 0.218s ease 0s;
+    font-size: 20px;
+    padding: 14px 0 14px 28px;
+}
+.product-logo.density-tiny {
+    -moz-transition: font-size 0.218s ease 0s, height 0.218s ease 0s, line-height 0.218s ease 0s, margin 0.218s ease 0s, padding 0.218s ease 0s, width 0.218s ease 0s;
+    font-size: 16px;
+    padding: 7px 0 7px 16px;
+}
+.viewpane-toolbar {
+    font-size: 13px;
+    height: 29px;
+    overflow: hidden;
+}
+.viewpane-toolbar {
+    border-bottom: 1px solid #EBEBEB;
+}
+.viewpane-toolbar.density-normal {
+    -moz-transition: font-size 0.218s ease 0s, height 0.218s ease 0s, line-height 0.218s ease 0s, margin 0.218s ease 0s, padding 0.218s ease 0s, width 0.218s ease 0s;
+    padding: 14px 44px 14px 16px;
+}
+.viewpane-toolbar.density-small {
+    -moz-transition: font-size 0.218s ease 0s, height 0.218s ease 0s, line-height 0.218s ease 0s, margin 0.218s ease 0s, padding 0.218s ease 0s, width 0.218s ease 0s;
+    padding: 14px 28px 14px 16px;
+}
+.viewpane-toolbar.density-tiny {
+    -moz-transition: font-size 0.218s ease 0s, height 0.218s ease 0s, line-height 0.218s ease 0s, margin 0.218s ease 0s, padding 0.218s ease 0s, width 0.218s ease 0s;
+    padding: 7px 16px;
+}
+.gradient {
+	/* Anciens navigateurs */
+	background: black url("/Images/gradient-bg.png") repeat-x top;
+	-o-background-size: 100% 100%;
+	-moz-background-size: 100% 100%;
+	-webkit-background-size: 100% 100%;
+	background-size: 100% 100%;
+	/* Navigateurs récents */
+	background: -webkit-gradient(
+		linear,
+		left top, left bottom,
+		from(lightslategray),
+		to(black)
+	);
+	background: -webkit-linear-gradient(
+		top,
+		lightslategray,
+		black
+	);
+	background: -moz-linear-gradient(
+		top,
+		lightslategray,
+		black
+	);
+	background: -o-linear-gradient(
+		top,
+		lightslategray,
+		black
+	);
+	background: linear-gradient(
+		top,
+		lightslategray,
+		black
+	);
+}

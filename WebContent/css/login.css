@@ -1,0 +1,79 @@
+@CHARSET "UTF-8";
+
+.signin-box {
+    background: none repeat scroll 0 0 #F5F5F5;
+    border: 1px solid #E5E5E5;
+    margin: 12px 0 0;
+    padding: 20px 25px 15px;
+}
+
+.signin-box h2 {
+    font-size: 16px;
+    height: 16px;
+    line-height: 17px;
+    margin: 0 0 1.2em;
+    position: relative;
+}
+.signin-box h2 strong {
+    display: inline-block;
+    height: 19px;
+    position: absolute;
+    right: 0;
+    top: 1px;
+    width: 52px;
+}
+.signin-box label {
+    display: block;
+    margin: 0 0 1.5em;
+}
+.signin-box input[type="text"], .signin-box input[type="password"] {
+    font-size: 15px;
+    height: 32px;
+    width: 100%;
+}
+.signin-box select {
+    font-size: 15px;
+    height: 32px;
+    width: 100%;
+    padding-top: 3px;
+}
+.signin-box .email-label, .signin-box .passwd-label {
+    -moz-user-select: none;
+    display: block;
+    font-weight: bold;
+    margin: 0 0 0.5em;
+}
+.signin-box .reauth {
+    display: inline-block;
+    font-size: 15px;
+    height: 29px;
+    line-height: 29px;
+    margin: 0;
+}
+.signin-box label.remember {
+    display: inline-block;
+    margin: 9px 0 0;
+    vertical-align: top;
+}
+.signin-box .remember-label {
+    -moz-user-select: none;
+    color: #666666;
+    font-weight: normal;
+    line-height: 0;
+    padding: 0 0 0 0.4em;
+}
+.signin-box input[type="submit"] {
+    font-size: 13px;
+    height: 32px;
+    margin: 0 1.5em 1.2em 0;
+}
+.signin-box ul {
+    margin: 0;
+}
+.signin-box .training-msg {
+    background: none repeat scroll 0 0 #F9EDBE;
+    padding: 0.5em 8px;
+}
+.signin-box .training-msg p {
+    margin: 0 0 0.5em;
+}
